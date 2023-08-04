@@ -27,7 +27,7 @@ import Footer from "../components/Footer.vue";
               <button type="submit" class="btn btn-primary">ログイン</button>
             </div>
                     </form>
-                    <Footer msg1="終了" msg2=""></Footer>
+                    <Footer msg1="終了" msg2="ff" ></Footer>
                 </div>
             </div>
         </div>
