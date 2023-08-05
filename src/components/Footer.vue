@@ -13,7 +13,7 @@
         <a href="" target="_blank" style="color: white">{{ msg2 }}</a></div>
       
       </div>
-      <p id="date"></p>
+      <p id="date">{{ currentDateTimecurrentDateTime }}</p>
  
   </footer>
 </template>
@@ -85,6 +85,31 @@
 
     // Define props using defineProps function
     import { defineProps } from 'vue';
+    import { ref, onMounted, onUnmounted } from 'vue';
+
+const currentDateTime = ref('');
+
+const updateCurrentDateTime = () => {
+  const date = new Date();
+  const year = date.getFullYear().toString().slice(-2);
+  const month = ("00" + (date.getMonth() + 1)).slice(-2);
+  const day = ("00" + date.getDate()).slice(-2);
+  const hours = ("00" + date.getHours()).slice(-2);
+  const minutes = ("00" + date.getMinutes()).slice(-2);
+  const seconds = ("00" + date.getSeconds()).slice(-2);
+
+  currentDateTime.value = `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`;
+};
+
+const timer = setInterval(updateCurrentDateTime, 1000); // Update every second
+
+onMounted(() => {
+  updateCurrentDateTime(); // Update the date and time immediately when the component mounts
+});
+
+onUnmounted(() => {
+  clearInterval(timer); // Cleanup the timer when the component is unmounted
+});
 
 defineProps({
   msg1:String,
@@ -92,29 +117,29 @@ defineProps({
 })
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const dateDisplayElement = document.getElementById("date");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const dateDisplayElement = document.getElementById("date");
 
-  var date = new Date();
+//   var date = new Date();
 
-  var month = ("00" + (date.getMonth() + 1)).slice(-2);
-  var day = ("00" + date.getDate()).slice(-2);
-  var year = date.getFullYear();
-  var hours = ("00" + date.getHours()).slice(-2);
-  var minutes = ("00" + date.getMinutes()).slice(-2);
-  var seconds = ("00" + date.getSeconds()).slice(-2);
+//   var month = ("00" + (date.getMonth() + 1)).slice(-2);
+//   var day = ("00" + date.getDate()).slice(-2);
+//   var year = date.getFullYear();
+//   var hours = ("00" + date.getHours()).slice(-2);
+//   var minutes = ("00" + date.getMinutes()).slice(-2);
+//   var seconds = ("00" + date.getSeconds()).slice(-2);
 
-  var dateStr =
-    year +
-    "/" +
-    month +
-    "/" +
-    day +
-    " " +
-    hours +
-    ":" +
-    minutes ;
-  // Update the content of the element with the formatted date string
-  dateDisplayElement.textContent = dateStr;
-});
+//   var dateStr =
+//     year +
+//     "/" +
+//     month +
+//     "/" +
+//     day +
+//     " " +
+//     hours +
+//     ":" +
+//     minutes ;
+//   // Update the content of the element with the formatted date string
+//   dateDisplayElement.textContent = dateStr;
+
 </script>

@@ -14,30 +14,10 @@ export default {
         <div class="card my-10 custom-card">
           <div class="card-body p-lg-5">
             <div class="text-center">
-              <div class="dropdown ">
+              <div class="dropdown  custom">
                 <button class="btn btn-secondary dropdown-toggle " type="button" id="soko-names-dropdown"
                   data-bs-toggle="dropdown" aria-expanded="false">
-                  倉庫選択
-                </button>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">2</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">3</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">4</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="dropdown custom">
-                <button class="btn btn-secondary dropdown-toggle " type="button" id="soko-names-dropdown"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  倉庫選択
+                  店舗選択
                 </button>
                 <ul class="dropdown-menu">
                   <li>
