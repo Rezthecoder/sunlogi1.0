@@ -1,6 +1,7 @@
 import { createWebHistory,createRouter } from "vue-router";
 import Login from "./components/Login.vue"
 import Dropdown from "./components/Dropdown.vue"
+import Location from "./components/Location.vue"
 
 //login routes
 const routes =[
@@ -13,6 +14,11 @@ const routes =[
         path: "/dropdown",
         name:"dropdown",
         component : Dropdown
+    },
+    {
+        path: "/location",
+        name:"location",
+        component : Location
     }
 ]
 

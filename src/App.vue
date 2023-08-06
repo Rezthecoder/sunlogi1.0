@@ -10,7 +10,8 @@ name:String,
   <h1>Sunlogi</h1>
 
   <router-link to="/login">Login</router-link><br>
-  <router-link to="/dropdown">Dropdown</router-link>
+  <router-link to="/dropdown">Dropdown</router-link><br>
+  <router-link to="/location">Location</router-link>
   <router-view></router-view>
   
 </template>
