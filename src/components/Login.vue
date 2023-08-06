@@ -1,5 +1,9 @@
 <script setup>
+
+
 import Footer from "../components/Footer.vue";
+
+
 </script>
 
 <template>
@@ -35,48 +39,4 @@ import Footer from "../components/Footer.vue";
 </template>
 
 <style>
-/* .nologin {
-    display: flex;
-    font-size: 10px;
-    margin-left: 6px;
-    margin-top: 12px;
-    justify-content: center;
-    align-items: center;
-    color: red;
-}
-
-.custom-image {
-    margin-top: 65px;
-    margin-left: 65px;
-}
-
-.custom-input {
-    height: 34px;
-    margin: 6px 7px;
-    width: 190px;
-}
-
-.custom-pass {
-    width: 190px;
-    height: 33px;
-    margin: 5px;
-}
-
-.btn-color {
-    background-color: blue;
-    color: #fff;
-}
-
-.btn {
-    font-size: 13px;
-    margin: 12px auto;
-}
-
-.cardbody-color {
-    background-color: #ebf2fa;
-}
-
-a {
-    text-decoration: none;
-} */
 </style>

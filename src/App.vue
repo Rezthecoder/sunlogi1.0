@@ -8,10 +8,11 @@ name:String,
 
 <template>
   <h1>Sunlogi</h1>
-   <!-- <div v-if="stock>5">まだ在庫あります</div>
-   <div v-else-if="stock===0">在庫ないです</div> -->
-<!-- <Footer msg1="test" msg2="rr"></Footer> -->
 
+  <router-link to="/login">Login</router-link><br>
+  <router-link to="/dropdown">Dropdown</router-link>
+  <router-view></router-view>
+  
 </template>
 
 <style scoped>
