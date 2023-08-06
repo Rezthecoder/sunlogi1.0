@@ -4,6 +4,7 @@ import App from './App.vue'
 import Footer from './components/Footer.vue'
 import Dropdown from "./components/Dropdown.vue";
 import Location from "./components/Location.vue";
+import LocationInfo from "./components/LocationInfo.vue";
 import Login from "./components/Login.vue"
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
