@@ -14,10 +14,10 @@ export default {
         <div class="card my-10 custom-card">
           <div class="card-body p-lg-5">
             <div class="text-center">
-              <div class="dropdown ">
-                <button class="btn btn-secondary dropdown-toggle " type="button" id="soko-names-dropdown"
+              <div class="dropdown mt-4 ">
+                <button class="btn btn-primary dropdown-toggle " type="button" 
                   data-bs-toggle="dropdown" aria-expanded="false">
-                  倉庫選択
+                  店舗選択
                 </button>
                 <ul class="dropdown-menu">
                   <li>
@@ -34,8 +34,8 @@ export default {
                   </li>
                 </ul>
               </div>
-              <div class="dropdown custom">
-                <button class="btn btn-secondary dropdown-toggle " type="button" id="soko-names-dropdown"
+              <div class="dropdown mt-4">
+                <button class="btn btn-primary dropdown-toggle " type="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   倉庫選択
                 </button>
@@ -81,8 +81,8 @@ export default {
 
 @media (width:240px) and (height:320px) {
   
-  .container{
-    height:100px;
+  .card-body{
+    height:73vh;
   }
 }
 
