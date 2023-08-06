@@ -78,4 +78,14 @@ export default {
   width: 100px;
   height: 27px;
 } 
+
+@media (width:240px) and (height:320px) {
+  
+  .container{
+    height:100px;
+  }
+}
+
+
+
 </style>

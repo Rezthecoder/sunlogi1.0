@@ -13,7 +13,7 @@
         <a href="" target="_blank" style="color: white">{{ msg2 }}</a></div>
       
       </div>
-      <p id="date">{{ currentDateTimecurrentDateTime }}</p>
+      <p id="date">{{ currentDateTime }}</p>
  
   </footer>
 </template>
@@ -53,16 +53,7 @@
     font-size: 27px;
     text-align: center;
 }
-/* .container {
-    max-width: 100%;
-    margin: 0;
-    height: 170vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
-/* Optionally, add styles to center individual elements inside the container */
+
 .container p {
   text-align: center;
   margin: 10px 0;
@@ -115,31 +106,5 @@ defineProps({
   msg1:String,
   msg2:String
 })
-
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const dateDisplayElement = document.getElementById("date");
-
-//   var date = new Date();
-
-//   var month = ("00" + (date.getMonth() + 1)).slice(-2);
-//   var day = ("00" + date.getDate()).slice(-2);
-//   var year = date.getFullYear();
-//   var hours = ("00" + date.getHours()).slice(-2);
-//   var minutes = ("00" + date.getMinutes()).slice(-2);
-//   var seconds = ("00" + date.getSeconds()).slice(-2);
-
-//   var dateStr =
-//     year +
-//     "/" +
-//     month +
-//     "/" +
-//     day +
-//     " " +
-//     hours +
-//     ":" +
-//     minutes ;
-//   // Update the content of the element with the formatted date string
-//   dateDisplayElement.textContent = dateStr;
 
 </script>
