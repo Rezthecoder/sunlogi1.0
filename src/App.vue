@@ -15,6 +15,7 @@ name:String,
   <router-link to="/locationInfo">LocationInfo</router-link><br>
   <router-link to="/syohin">Syohin</router-link><br>
   <router-link to="/syohinInfo">SyohinInfo</router-link>
+  <router-link to="/Menu">Menu</router-link>
   <router-view></router-view>
   
 </template>
