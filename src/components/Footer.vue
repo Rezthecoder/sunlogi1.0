@@ -6,7 +6,9 @@
       
       <!-- Add your footer content here -->
       <div class="modoru">
-        <a href="{{ href }}" target="_blank" style="color: white">{{ msg1 }}</a></div>
+        <router-link to="/syohin">
+          {{ msg1 }}
+        </router-link></div>
       <div class="bluebox"></div>
       <div class="greenbox"></div>
       <div class="kettei">
@@ -42,9 +44,10 @@
 .modoru {
     background-color: red;
     width: 200px;
-    color: white;
+    color: white !important;
     font-size: 27px;
     text-align: center;
+    text-decoration:none;
 }
 .kettei {
     background-color: orange;
