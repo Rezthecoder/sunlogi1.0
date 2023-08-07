@@ -6,7 +6,7 @@ import LocationInfo from "./components/LocationInfo.vue"
 import Syohin from "./components/Syohin.vue"
 import SyohinInfo from "./components/SyohinInfo.vue"
 import Kanryo from "./components/Kanryo.vue"
-
+import Menu from "./components/Menu.vue";
 //login routes
 const routes =[
     {
@@ -46,6 +46,12 @@ const routes =[
         path: "/kanryo",
         name:"kanryo",
         component : Kanryo
+    },
+    ,
+    {
+        path: "/menu",
+        name:"menu",
+        component : Menu
     }
 ]
 

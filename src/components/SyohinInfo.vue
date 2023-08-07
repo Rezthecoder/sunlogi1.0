@@ -14,8 +14,9 @@ export default {
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3">
         <div class="card">
+          <MyHeader msg="商品情報"/>
           <div class="card-body p-lg-5">
-            <MyHeader msg="商品情報"/>
+           
             <div class="table-responsive">
               <table class="table table-bordered table-sm"> <!-- Added 'table-sm' class for smaller table size -->
                 <thead>

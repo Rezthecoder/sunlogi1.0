@@ -14,7 +14,7 @@ export default {
   <div class="container ">
    
     <div class="row">
-      
+     
       <div class="col-sm-12 col-md-6 offset-md-3">
         <div class="card my-10 custom-card">
           <MyHeader msg="ロケーション選択"/>
