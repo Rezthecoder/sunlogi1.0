@@ -54,9 +54,9 @@ export default {
                 </tbody>
               </table>
             </div>
-            <Footer msg1="戻る" msg2=""></Footer>
+         
           </div>
-        
+          <Footer msg1="戻る" msg2=""></Footer>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const routes =[
     {
         path: "/dropdown",
         name:"dropdown",
-        component : Dropdown
+        component : Dropdown,
     },
     {
         path: "/location",

@@ -31,9 +31,11 @@ export default {
               </div>
             </div>
           </div>
-          <Footer msg1="戻る" msg2=""></Footer>
+        
         </div>
+        <Footer msg1="戻る" msg2=""></Footer>
       </div>
+      
     </div>
   </div>
   <!-- Example split danger button -->

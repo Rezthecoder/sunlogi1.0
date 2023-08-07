@@ -11,11 +11,8 @@ import SyohinInfo from "./components/SyohinInfo.vue";
 import Kanryo from "./components/Kanryo.vue";
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 085cb7ac42a23764474d31e4736057167b5233d7
 import router from './routing';
 
 const app=createApp(App).use(router);
