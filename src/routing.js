@@ -11,16 +11,16 @@ const routes =[
         name:"login",
         component : Login
     },
-    // {
-    //     path: "/dropdown",
-    //     name:"dropdown",
-    //     component : Dropdown
-    // },
-    // {
-    //     path: "/location",
-    //     name:"location",
-    //     component : Location
-    // },
+    {
+        path: "/dropdown",
+        name:"dropdown",
+        component : Dropdown
+    },
+    {
+        path: "/location",
+        name:"location",
+        component : Location
+    },
     {
         path: "/locationInfo",
         name:"locationInfo",
