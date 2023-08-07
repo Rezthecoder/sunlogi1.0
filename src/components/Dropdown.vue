@@ -1,8 +1,10 @@
 <script>
 import Footer from "../components/Footer.vue";
+import MyHeader from "../components/MyHeader.vue";
 export default {
   components: {
     Footer, // Register the Footer component
+    MyHeader,
   },
 };
 </script>
@@ -12,6 +14,7 @@ export default {
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3">
         <div class="card my-10 custom-card">
+          <MyHeader msg="倉庫選択"/>
           <div class="card-body p-lg-5">
             <div class="text-center">
               <div class="dropdown mt-4 ">
