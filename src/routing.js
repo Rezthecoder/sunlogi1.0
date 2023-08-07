@@ -5,7 +5,11 @@ import Location from "./components/Location.vue"
 import LocationInfo from "./components/LocationInfo.vue"
 import Syohin from "./components/Syohin.vue"
 import SyohinInfo from "./components/SyohinInfo.vue"
+<<<<<<< HEAD
 import Menu from "./components/Menu.vue"
+=======
+import Kanryo from "./components/Kanryo.vue"
+>>>>>>> 6e149aa950beedbedfd5beb6db6aec85a75e3448
 
 //login routes
 const routes =[
@@ -43,9 +47,9 @@ const routes =[
     },
     ,
     {
-        path: "/menu",
-        name:"menu",
-        component : Menu
+        path: "/kanryo",
+        name:"kanryo",
+        component : Kanryo
     }
 ]
 

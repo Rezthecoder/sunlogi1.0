@@ -8,6 +8,7 @@ import LocationInfo from "./components/LocationInfo.vue";
 import Login from "./components/Login.vue"
 import Syohin from "./components/Syohin.vue";
 import SyohinInfo from "./components/SyohinInfo.vue";
+import Kanryo from "./components/Kanryo.vue";
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
 import router from './routing';
