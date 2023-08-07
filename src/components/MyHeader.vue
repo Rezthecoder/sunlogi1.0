@@ -1,21 +1,19 @@
 <script setup>
 
 defineProps({
-  msg: String,
-  msg2:String,
-
+  msg: String
 })
 </script>
 
 <template>
-
+ 
 
  <header>
     <div class="header-left">
       <span id="page-title" style="color:rgb(3, 10, 73)">{{ msg }}</span>
     </div>
     <div class="header-right">
-        <a href=""> <img src="../assets/test.png" alt="ログアウト"></a>
+      <router-link to="/login"><img src="../assets/test.png" alt="ログアウト"></router-link>
     </div>
   </header>
 </template>
