@@ -13,7 +13,7 @@ import Footer from "../components/Footer.vue";
                 <div class="card my-5">
                     <div class="text-center">
                         <img src="../assets/logo.png"
-                            class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3 custom-image" width="200px"
+                            class="img-fluid profile-image-pic img-thumbnail my-3 custom-image" width="200px"
                             alt="profile" />
                     </div>
                     <form class="card-body p-lg-5">
