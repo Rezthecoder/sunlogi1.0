@@ -6,7 +6,7 @@
       
       <!-- Add your footer content here -->
       <div class="modoru">
-        <a href="" target="_blank" style="color: white">{{ msg1 }}</a></div>
+        <a href="{{ href }}" target="_blank" style="color: white">{{ msg1 }}</a></div>
       <div class="bluebox"></div>
       <div class="greenbox"></div>
       <div class="kettei">
@@ -104,7 +104,8 @@ onUnmounted(() => {
 
 defineProps({
   msg1:String,
-  msg2:String
+  msg2:String,
+  href:String
 })
 
 </script>
