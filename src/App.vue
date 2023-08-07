@@ -20,7 +20,10 @@ name:String,
   
 </template>
 
+
 <style scoped>
+
+
 .active{
   color:red;
   font-weight:900;

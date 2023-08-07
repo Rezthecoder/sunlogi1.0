@@ -1,13 +1,13 @@
-<script>
+<script setup>
 import Footer from "../components/Footer.vue";
 import MyHeader from "../components/MyHeader.vue";
 
-export default {
-  components: {
-    Footer, // Register the Footer component
-    MyHeader,
-  },
-};
+// export default {
+//   components: {
+//     Footer, // Register the Footer component
+//     MyHeader,
+//   },
+// };
 
 </script>
 

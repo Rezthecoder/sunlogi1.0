@@ -11,13 +11,7 @@ import SyohinInfo from "./components/SyohinInfo.vue";
 import Kanryo from "./components/Kanryo.vue";
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
-import ElementPlus from 'element-plus';
-import 'element-plus/lib/theme-chalk/index.css';
-
 import router from './routing';
 
-
-
 const app=createApp(App).use(router);
-
 app.mount('#app')
