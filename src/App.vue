@@ -12,7 +12,9 @@ name:String,
   <router-link to="/login">Login</router-link><br>
   <router-link to="/dropdown">Dropdown</router-link><br>
   <router-link to="/location">Location</router-link><br>
-  <router-link to="/locationInfo">LocationInfo</router-link>
+  <router-link to="/locationInfo">LocationInfo</router-link><br>
+  <router-link to="/syohin">Syohin</router-link><br>
+  <router-link to="/syohinInfo">SyohinInfo</router-link>
   <router-view></router-view>
   
 </template>

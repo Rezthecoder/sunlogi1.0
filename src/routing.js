@@ -3,6 +3,8 @@ import Login from "./components/Login.vue"
 import Dropdown from "./components/Dropdown.vue"
 import Location from "./components/Location.vue"
 import LocationInfo from "./components/LocationInfo.vue"
+import Syohin from "./components/Syohin.vue"
+import SyohinInfo from "./components/SyohinInfo.vue"
 
 //login routes
 const routes =[
@@ -25,6 +27,18 @@ const routes =[
         path: "/locationInfo",
         name:"locationInfo",
         component : LocationInfo
+    },
+    ,
+    {
+        path: "/syohin",
+        name:"syohin",
+        component : Syohin
+    },
+    ,
+    {
+        path: "/syohinInfo",
+        name:"syohinInfo",
+        component : SyohinInfo
     }
 ]
 
