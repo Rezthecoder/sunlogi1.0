@@ -7,6 +7,7 @@ import {ref} from 'vue';
 const code = ref('');
 const codename=ref('');
 const number=ref('');
+
 const numberPlus=()=>{
  code.value="18980";
  codename.value="商品サンプル１";

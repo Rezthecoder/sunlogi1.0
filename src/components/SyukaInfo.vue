@@ -26,8 +26,8 @@ export default {
             <div class="text-center">
               <div class="form-group row mb-3">
                 <label class="col-sm-5 col-form-label" for="location">商品コード</label>
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="location" autofocus />
+                <div class="col-sm-6" >
+                  <input type="text" autofocus class="form-control" id="location" />
                 </div>
               </div>
             </div>

@@ -5,7 +5,10 @@ export default {
   components: {
     Footer, // Register the Footer component
     MyHeader,
-  },
+  },mounted() {
+
+this.$refs.locationInput.focus(); 
+},
 };
 </script>
 
@@ -26,7 +29,7 @@ export default {
               
                 <label class="col-sm-5 col-form-label" for="location">出荷コード</label>
                 <div class="col-sm-6">
-                  <input type="text" class="form-control" id="location" required="true" />
+                  <input type="text" class="form-control" id="location" required="true" ref="locationInput" />
                 </div>
               </div>
             </div>

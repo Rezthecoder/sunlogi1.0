@@ -17,6 +17,7 @@ import SyukaInfo from "./components/SyukaInfo.vue";
 import Picking from "./components/Picking.vue";
 import PickingList from "./components/PickingList.vue";
 import Pickingkanryou from "./components/Pickingkanryou.vue";
+import Zaiko from "./components/Zaiko.vue";
 //login routes
 const routes =[
     {
@@ -111,6 +112,11 @@ const routes =[
         path: "/pickingkanryou",
         name:"pickingkanryou",
         component : Pickingkanryou
+    },
+    {
+        path: "/zaiko",
+        name:"zaiko",
+        component : Zaiko
     },
     
 ]
