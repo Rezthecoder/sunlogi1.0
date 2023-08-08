@@ -37,7 +37,7 @@ export default {
             </div>
          
           </div>
-          <Footer msg1="" msg2="完了" ></Footer>
+          <Footer msg1="" msg2="完了"  :msg4="'/location'" ></Footer>
         </div>
       </div>
     </div>

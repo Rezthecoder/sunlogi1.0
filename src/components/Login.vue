@@ -19,11 +19,11 @@ import Footer from "../components/Footer.vue";
                     <form class="card-body p-lg-5">
                         <div class="form-group mb-3 ">
                             <label class="label" for="name">ログインID</label>
-                            <input type="text" class="form-control" placeholder=""  />
+                            <input type="text" class="form-control" placeholder="" required="true"  />
                         </div>
                         <div class="form-group mb-3 ">
                             <label class="label" for="name">パスワード</label>
-                            <input type="text" class="form-control" placeholder=""  />
+                            <input type="text" class="form-control" placeholder=""   required="true" />
                         </div>
                         <p class="text-center text-danger"> ログインできない場合はシステム管理者にお問い合わせください</p>
                         
