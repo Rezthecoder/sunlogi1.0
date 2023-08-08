@@ -12,6 +12,9 @@ import LocationKanryo from "./components/LocationKanryo.vue";
 import SyohinKanryo from "./components/SyohinKanryo.vue";
 import Message from "./components/Message.vue";
 import TourokuKanryou from "./components/TourokuKanryou.vue";
+import Syuka from "./components/Syuka.vue";
+import SyukaKanryo from "./components/SyukaKanryo.vue";
+import SyukaInfo from "./components/SyukaInfo.vue";
 
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"

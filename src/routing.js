@@ -11,6 +11,9 @@ import Nyuuko from "./components/Nyuuko.vue";
 import Message from "./components/Message.vue";
 import SyohinKanryo from "./components/SyohinKanryo.vue";
 import TourokuKanryou from "./components/TourokuKanryou.vue";
+import Syuka from "./components/Syuka.vue";
+import SyukaKanryo from "./components/SyukaKanryo.vue";
+import SyukaInfo from "./components/SyukaInfo.vue";
 //login routes
 const routes =[
     {
@@ -75,6 +78,21 @@ const routes =[
         path: "/tourokuKanryou",
         name:"tourokuKanryou",
         component : TourokuKanryou
+    },
+    {
+        path: "/syuka",
+        name:"syuka",
+        component : Syuka
+    },
+    {
+        path: "/syukaKanryo",
+        name:"syukaKanryo",
+        component : SyukaKanryo
+    },
+    {
+        path: "/syukaInfo",
+        name:"syukaInfo",
+        component : SyukaInfo
     },
 ]
 
