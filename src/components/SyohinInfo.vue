@@ -56,7 +56,7 @@ export default {
             </div>
          
           </div>
-          <Footer msg1="戻る" msg2=""></Footer>
+          <Footer msg1="戻る" msg2="完了" :msg3="'/syohin'" :msg4="'/syohinkanryo'"></Footer>
         </div>
       </div>
     </div>

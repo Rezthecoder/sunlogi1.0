@@ -1,13 +1,19 @@
-<script setup>
+<script  >
 import Footer from "../components/Footer.vue";
 import MyHeader from "../components/MyHeader.vue";
+import Message from "../components/Message.vue";
 
-// export default {
-//   components: {
-//     Footer, // Register the Footer component
-//     MyHeader,
-//   },
-// };
+export default {
+  components: {
+    Footer, // Register the Footer component
+    MyHeader,
+    Message,
+  }
+}
+
+// defineProps({
+//   kanryomsg:String
+// })
 
 </script>
 
@@ -25,12 +31,13 @@ import MyHeader from "../components/MyHeader.vue";
             <div class="text-center">
               <!-- Removed the inner row and adjusted column classes -->
               <div class="form-group row mb-3">
-                <p>一括ロケーション移動が完了しました</p>
+               <Message hello="ロケーション●●の棚卸が完了しました。"></Message>
                 
               </div>
             </div>
+         
           </div>
-          <Footer msg1="" msg2="完了"></Footer>
+          <Footer msg1="" msg2="完了" ></Footer>
         </div>
       </div>
     </div>
@@ -50,8 +57,11 @@ import MyHeader from "../components/MyHeader.vue";
 
 @media (width:240px) and (height:320px) {
   
+  .kettei{
+        white-space: nowrap;
+    }
   .card-body{
-    height:73vh;
+    height:fit-content;
   }
 }
 

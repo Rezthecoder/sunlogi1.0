@@ -1,12 +1,20 @@
-<script>
+<script  >
 import Footer from "../components/Footer.vue";
 import MyHeader from "../components/MyHeader.vue";
+import Message from "../components/Message.vue";
+
 export default {
   components: {
     Footer, // Register the Footer component
     MyHeader,
-  },
-};
+    Message,
+  }
+}
+
+// defineProps({
+//   kanryomsg:String
+// })
+
 </script>
 
 <template>
@@ -17,25 +25,20 @@ export default {
       
       <div class="col-sm-12 col-md-6 offset-md-3">
         <div class="card my-10 custom-card">
-          <MyHeader msg="ロケーション選択"/>
+          <MyHeader msg="完了画面"/>
           <div class="card-body p-lg-5">
           
             <div class="text-center">
               <!-- Removed the inner row and adjusted column classes -->
               <div class="form-group row mb-3">
-              
-                <label class="col-sm-5 col-form-label" for="location">ロケーション</label>
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="location" required="true" />
-                </div>
+               <Message hello="商品が完了しました。"></Message>
               </div>
             </div>
+         
           </div>
-        
+          <Footer msg1="" msg2="完了" ></Footer>
         </div>
-        <Footer msg1="戻る" msg2=""></Footer>
       </div>
-      
     </div>
   </div>
   <!-- Example split danger button -->
@@ -53,8 +56,11 @@ export default {
 
 @media (width:240px) and (height:320px) {
   
+  .kettei{
+        white-space: nowrap;
+    }
   .card-body{
-    height:73vh;
+    height:fit-content;
   }
 }
 

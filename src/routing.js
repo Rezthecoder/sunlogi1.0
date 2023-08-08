@@ -5,10 +5,15 @@ import Location from "./components/Location.vue"
 import LocationInfo from "./components/LocationInfo.vue"
 import Syohin from "./components/Syohin.vue"
 import SyohinInfo from "./components/SyohinInfo.vue"
-import Kanryo from "./components/Kanryo.vue"
+import LocationKanryo from "./components/LocationKanryo.vue"
 import Menu from "./components/Menu.vue";
+<<<<<<< HEAD
 import Nyuuko from "./components/Nyuuko.vue";
 
+=======
+import Message from "./components/Message.vue";
+import SyohinKanryo from "./components/SyohinKanryo.vue";
+>>>>>>> 01c8813799ae987306db29779f382fa2f71c8b97
 //login routes
 const routes =[
     {
@@ -45,9 +50,9 @@ const routes =[
     },
     ,
     {
-        path: "/kanryo",
-        name:"kanryo",
-        component : Kanryo
+        path: "/locationKanryo",
+        name:"locationKanryo",
+        component : LocationKanryo
     },
     ,
     {
@@ -56,11 +61,24 @@ const routes =[
         component : Menu
     },,
     {
+<<<<<<< HEAD
         path: "/nyuuko",
         name:"nyuuko",
         component : Nyuuko
     }
+=======
+        path: "/message",
+        name:"message",
+        component : Message
+    },
+    {
+        path: "/syohinKanryo",
+        name:"syohinKanryo",
+        component : SyohinKanryo
+    },
+>>>>>>> 01c8813799ae987306db29779f382fa2f71c8b97
 ]
+
 
 const router =createRouter({
     history: createWebHistory(),
