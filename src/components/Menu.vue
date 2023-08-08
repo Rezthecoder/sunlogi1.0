@@ -30,7 +30,7 @@ export default {
               <router-link to="/location" style="text-decoration:none;">ロケーション移動</router-link>
              </div>
              <div class="form-group row mb-3 border border-primary p-3">
-              <router-link to="/syohin" style="text-decoration:none;">ピッキング</router-link>
+              <router-link to="/picking" style="text-decoration:none;">ピッキング</router-link>
              </div>
              <div class="form-group row mb-3 border border-primary p-3">
               <router-link to="/syohin" style="text-decoration:none;">出荷検品</router-link>

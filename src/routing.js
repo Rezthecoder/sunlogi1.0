@@ -11,6 +11,9 @@ import Nyuuko from "./components/Nyuuko.vue";
 import Message from "./components/Message.vue";
 import SyohinKanryo from "./components/SyohinKanryo.vue";
 import TourokuKanryou from "./components/TourokuKanryou.vue";
+import Picking from "./components/Picking.vue";
+import PickingList from "./components/PickingList.vue";
+import Pickingkanryou from "./components/Pickingkanryou.vue";
 //login routes
 const routes =[
     {
@@ -75,6 +78,21 @@ const routes =[
         path: "/tourokuKanryou",
         name:"tourokuKanryou",
         component : TourokuKanryou
+    },
+    {
+        path: "/picking",
+        name:"picking",
+        component : Picking
+    },
+    {
+        path: "/pickinglist",
+        name:"pickinglist",
+        component : PickingList
+    },
+    {
+        path: "/pickingkanryou",
+        name:"pickingkanryou",
+        component : Pickingkanryou
     },
 ]
 
