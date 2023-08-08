@@ -43,10 +43,13 @@ export default {
              </div>
            </div>
          </div>
-         <Footer msg1="" msg2="完了"></Footer>
+         
        </div>
+       <Footer msg1="" msg2="完了"></Footer>
      </div>
+     
    </div>
+  
  </div>
 </template>
 
@@ -56,7 +59,8 @@ export default {
 @media (width:240px) and (height:320px) {
   
   .card-body{
-    height:73vh;
+ 
+    height: auto;
   }
 }
 

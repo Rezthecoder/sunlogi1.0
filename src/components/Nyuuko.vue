@@ -29,7 +29,7 @@ export default {
               <!-- Removed the inner row and adjusted column classes -->
               <div class="form-group row mb-3">
           
-               <Form />
+               <Form class="form"/>
 
 
               </div>
@@ -55,8 +55,11 @@ export default {
 
 @media (width:240px) and (height:320px) {
   
-  .card-body{
+  .form{
     height:73vh;
+  }
+  .form{
+    height:fit-content;
   }
 }
 
