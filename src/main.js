@@ -11,6 +11,8 @@ import SyohinInfo from "./components/SyohinInfo.vue";
 import LocationKanryo from "./components/LocationKanryo.vue";
 import SyohinKanryo from "./components/SyohinKanryo.vue";
 import Message from "./components/Message.vue";
+import TourokuKanryou from "./components/TourokuKanryou.vue";
+
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
 

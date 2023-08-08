@@ -1,16 +1,19 @@
-<script>
+<script  >
 import Footer from "./Footer.vue";
 import MyHeader from "./MyHeader.vue";
-import BarcodeForm from "./BarcodeForm.vue";
-import Form from "./Form.vue";
+import Message from "./Message.vue";
+
 export default {
   components: {
     Footer, // Register the Footer component
     MyHeader,
-    BarcodeForm,
-    Form,
-  },
-};
+    Message,
+  }
+}
+
+// defineProps({
+//   kanryomsg:String
+// })
 
 </script>
 
@@ -22,20 +25,19 @@ export default {
       
       <div class="col-sm-12 col-md-6 offset-md-3">
         <div class="card my-10 custom-card">
-          <MyHeader msg="入庫新規登録"/>
+          <MyHeader msg="完了画面"/>
           <div class="card-body p-lg-5">
           
             <div class="text-center">
               <!-- Removed the inner row and adjusted column classes -->
               <div class="form-group row mb-3">
-          
-               <Form />
-
-
+               <Message hello="入庫新規登録作業が完了しました"></Message>
+                
               </div>
             </div>
+         
           </div>
-          <Footer msg1="戻る" msg2="完了" :msg3="'/menu'" :msg4="'/tourokuKanryou'"></Footer>
+          <Footer msg1="" msg2="完了" msg3="" :msg4="'/nyuuko'" ></Footer>
         </div>
       </div>
     </div>
@@ -55,8 +57,11 @@ export default {
 
 @media (width:240px) and (height:320px) {
   
+  .kettei{
+        white-space: nowrap;
+    }
   .card-body{
-    height:73vh;
+    height:fit-content;
   }
 }
 

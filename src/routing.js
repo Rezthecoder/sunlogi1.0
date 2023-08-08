@@ -10,6 +10,7 @@ import Menu from "./components/Menu.vue";
 import Nyuuko from "./components/Nyuuko.vue";
 import Message from "./components/Message.vue";
 import SyohinKanryo from "./components/SyohinKanryo.vue";
+import TourokuKanryou from "./components/TourokuKanryou.vue";
 //login routes
 const routes =[
     {
@@ -70,6 +71,10 @@ const routes =[
         path: "/syohinKanryo",
         name:"syohinKanryo",
         component : SyohinKanryo
+    },{
+        path: "/tourokuKanryou",
+        name:"tourokuKanryou",
+        component : TourokuKanryou
     },
 ]
 
