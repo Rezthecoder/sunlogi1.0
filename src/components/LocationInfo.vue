@@ -15,7 +15,7 @@ export default {
       <div class="col-sm-12 col-md-6 offset-md-3">
        
         <div class="card">
-          <MyHeader msg="商品情報"/>
+          <MyHeader msg="ロケーション情報"/>
           <div class="card-body p-lg-5">
           
             <div class="table-responsive">

@@ -24,10 +24,10 @@ export default {
            <div class="text-center">
              <!-- Removed the inner row and adjusted column classes -->
              <div class="form-group row mb-3 border border-primary p-3">
-              <router-link to="/syohin" style="text-decoration:none;">入庫新規登録</router-link>
+               <router-link to="/syohin" style="text-decoration:none;">入庫新規登録</router-link>
              </div>
              <div class="form-group row mb-3 border border-primary p-3">
-              <router-link to="/syohin" style="text-decoration:none;">ロケーション移動</router-link>
+              <router-link to="/location" style="text-decoration:none;">ロケーション移動</router-link>
              </div>
              <div class="form-group row mb-3 border border-primary p-3">
               <router-link to="/syohin" style="text-decoration:none;">ピッキング</router-link>

@@ -17,6 +17,7 @@ name:String,
   <router-link to="/syohinInfo">SyohinInfo</router-link><br>
   <router-link to="/kanryo">Kanryo</router-link><br>
   <router-link to="/menu">Menu</router-link><br>
+  <router-link to="/nyuuko">Nyuuko</router-link><br>
   <router-view></router-view>
   
 </template>
