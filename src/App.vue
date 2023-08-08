@@ -15,11 +15,18 @@ name:String,
   <router-link to="/locationInfo">LocationInfo</router-link><br>
   <router-link to="/syohin">Syohin</router-link><br>
   <router-link to="/syohinInfo">SyohinInfo</router-link><br>
-  <router-link to="/kanryo">Kanryo</router-link><br>
+  <!-- <router-link to="/kanryo">Kanryo</router-link><br> -->
   <router-link to="/menu">Menu</router-link><br>
   <router-link to="/nyuuko">Nyuuko</router-link><br>
+<<<<<<< HEAD
   <router-link to="/message">Message</router-link><br>
   <router-link to="/picking">Picking</router-link><br>
+=======
+  <!-- <router-link to="/message">Message</router-link><br> -->
+  <router-link to="/syuka">Syuka</router-link><br>
+  <router-link to="/syukaInfo">SyukaInfo</router-link><br>
+  <router-link to="/syukaKanryo">SyukaKanryo</router-link><br>
+>>>>>>> 422950aefc9713236bd3df13dbd693897db44d6b
   <router-view></router-view>
   
 </template>

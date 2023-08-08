@@ -11,9 +11,15 @@ import Nyuuko from "./components/Nyuuko.vue";
 import Message from "./components/Message.vue";
 import SyohinKanryo from "./components/SyohinKanryo.vue";
 import TourokuKanryou from "./components/TourokuKanryou.vue";
+<<<<<<< HEAD
 import Picking from "./components/Picking.vue";
 import PickingList from "./components/PickingList.vue";
 import Pickingkanryou from "./components/Pickingkanryou.vue";
+=======
+import Syuka from "./components/Syuka.vue";
+import SyukaKanryo from "./components/SyukaKanryo.vue";
+import SyukaInfo from "./components/SyukaInfo.vue";
+>>>>>>> 422950aefc9713236bd3df13dbd693897db44d6b
 //login routes
 const routes =[
     {
@@ -80,6 +86,7 @@ const routes =[
         component : TourokuKanryou
     },
     {
+<<<<<<< HEAD
         path: "/picking",
         name:"picking",
         component : Picking
@@ -93,6 +100,21 @@ const routes =[
         path: "/pickingkanryou",
         name:"pickingkanryou",
         component : Pickingkanryou
+=======
+        path: "/syuka",
+        name:"syuka",
+        component : Syuka
+    },
+    {
+        path: "/syukaKanryo",
+        name:"syukaKanryo",
+        component : SyukaKanryo
+    },
+    {
+        path: "/syukaInfo",
+        name:"syukaInfo",
+        component : SyukaInfo
+>>>>>>> 422950aefc9713236bd3df13dbd693897db44d6b
     },
 ]
 
