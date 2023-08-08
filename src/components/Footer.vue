@@ -6,13 +6,16 @@
       
       <!-- Add your footer content here -->
       <div class="modoru">
-        <router-link to="/syohin" style="color:white;text-decoration: none;">
-          {{ msg1 }}
-        </router-link></div>
+        <a :href="msg3" style="color: white; text-decoration: none;">
+    {{ msg1 }}
+  </a></div>
       <div class="bluebox"></div>
       <div class="greenbox"></div>
       <div class="kettei">
-        <a href="" target="_blank" style="color: white">{{ msg2 }}</a></div>
+        <!-- <a href="" target="_blank" style="color: white">{{ msg2 }}</a></div> -->
+        <a :href="msg4" style="color: white; text-decoration: none;">
+    {{ msg2 }}
+  </a></div>
       
       </div>
       <p id="date">{{ currentDateTime }}</p>
@@ -76,6 +79,7 @@
 
 <script setup>
 
+const dynamicRoute = "/location";
 
     // Define props using defineProps function
     import { defineProps } from 'vue';
@@ -108,7 +112,8 @@ onUnmounted(() => {
 defineProps({
   msg1:String,
   msg2:String,
-  href:String
+  msg3:String,
+  msg4:String,
 })
 
 </script>

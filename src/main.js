@@ -8,7 +8,9 @@ import LocationInfo from "./components/LocationInfo.vue";
 import Login from "./components/Login.vue"
 import Syohin from "./components/Syohin.vue";
 import SyohinInfo from "./components/SyohinInfo.vue";
-import Kanryo from "./components/Kanryo.vue";
+import LocationKanryo from "./components/LocationKanryo.vue";
+import SyohinKanryo from "./components/SyohinKanryo.vue";
+import Message from "./components/Message.vue";
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
 

@@ -1,12 +1,16 @@
 <script>
 import Footer from "../components/Footer.vue";
 import MyHeader from "../components/MyHeader.vue";
+import Location from "../components/Location.vue";
 export default {
   components: {
     Footer,
     MyHeader,
+    Location
   },
+
 };
+// console.log(Footer.msg1);
 </script>
 
 <template>
@@ -15,7 +19,7 @@ export default {
       <div class="col-sm-12 col-md-6 offset-md-3">
        
         <div class="card">
-          <MyHeader msg="商品情報"/>
+          <MyHeader msg="ロケーション情報"/>
           <div class="card-body p-lg-5">
           
             <div class="table-responsive">
@@ -56,11 +60,11 @@ export default {
                 </tbody>
               </table>
             </div>
-           
+        
           </div>
         
         </div>
-        <Footer msg1="戻る" msg2=""></Footer>
+        <Footer msg1="戻る" msg2="完了" :msg3="'/location'" :msg4="'/locationKanryo'" ></Footer>
       </div>
     </div>
   </div>
