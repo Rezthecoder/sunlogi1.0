@@ -21,9 +21,16 @@ export default {
       <div class="col-sm-12 col-md-6 offset-md-3">
        
         <div class="card">
-          <MyHeader msg="ロケーション情報"/>
+          <MyHeader msg="出荷検品リスト"/>
           <div class="card-body p-lg-5">
-          
+            <div class="text-center">
+              <div class="form-group row mb-3">
+                <label class="col-sm-5 col-form-label" for="location">商品コード</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="location" autofocus />
+                </div>
+              </div>
+            </div>
             <div class="table-responsive">
               <table class="table table-bordered table-sm"> <!-- Added 'table-sm' class for smaller table size -->
                 <thead>
