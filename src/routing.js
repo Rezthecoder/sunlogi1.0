@@ -59,14 +59,13 @@ const routes =[
         path: "/menu",
         name:"menu",
         component : Menu
-    },,
+    },
     {
-<<<<<<< HEAD
         path: "/nyuuko",
         name:"nyuuko",
         component : Nyuuko
-    }
-=======
+    },
+    {
         path: "/message",
         name:"message",
         component : Message
@@ -76,7 +75,6 @@ const routes =[
         name:"syohinKanryo",
         component : SyohinKanryo
     },
->>>>>>> 01c8813799ae987306db29779f382fa2f71c8b97
 ]
 
 
