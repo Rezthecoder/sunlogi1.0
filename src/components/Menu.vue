@@ -27,7 +27,7 @@ export default {
                <router-link to="/nyuuko" style="text-decoration:none;">入庫新規登録</router-link>
              </div>
              <div class="form-group row mb-3 border border-primary p-3">
-              <router-link to="/location" style="text-decoration:none;">ロケーション移動</router-link>
+              <router-link to="/moveLocation" style="text-decoration:none;">ロケーション移動</router-link>
              </div>
              <div class="form-group row mb-3 border border-primary p-3">
               <router-link to="/picking" style="text-decoration:none;">ピッキング</router-link>
