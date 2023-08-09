@@ -23,6 +23,8 @@ name:String,
   <router-link to="/syukaKanryo">SyukaKanryo</router-link><br> -->
   <router-link to="/picking">Picking</router-link><br>
   <router-link to="/zaiko">Zaiko</router-link><br>
+  <router-link to="/ikatsuLocationIdou">IkatsuLocationIdou</router-link><br>
+
   <router-view></router-view>
   
 </template>

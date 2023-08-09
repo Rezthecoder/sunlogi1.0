@@ -18,6 +18,8 @@ import Picking from "./components/Picking.vue";
 import PickingList from "./components/PickingList.vue";
 import Pickingkanryou from "./components/Pickingkanryou.vue";
 import Zaiko from "./components/Zaiko.vue";
+import IkatsuLocationIdou from "./components/IkatsuLocationIdou.vue";
+import IkatsuLocationIdouKanryo from "./components/IkatsuLocationIdouKanryo.vue";
 //login routes
 const routes =[
     {
@@ -117,6 +119,17 @@ const routes =[
         path: "/zaiko",
         name:"zaiko",
         component : Zaiko
+    },
+    {
+        path: "/ikatsuLocationIdou",
+        name:"ikatsuLocationIdou",
+        component : IkatsuLocationIdou
+    },
+    
+    {
+        path: "/ikatsuLocationIdouKanryo",
+        name:"ikatsuLocationIdouKanryo",
+        component : IkatsuLocationIdouKanryo
     },
     
 ]

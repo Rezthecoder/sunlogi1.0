@@ -21,25 +21,27 @@ this.$refs.locationInput.focus();
       
       <div class="col-sm-12 col-md-6 offset-md-3">
         <div class="card my-10 custom-card">
-          <MyHeader msg="ロケーション選択"/>
+          <MyHeader msg="一括ロケーション移動"/>
           <div class="card-body p-lg-5">
           
             <div class="text-center">
               <!-- Removed the inner row and adjusted column classes -->
               <div class="form-group row mb-3">
               
-                <label class="col-sm-5 col-form-label" for="location">ロケーション</label>
+                <label class="col-sm-5 col-form-label" for="location">移動元ロケーション</label>
                 <div class="col-sm-6">
-                  <input type="text" class="form-control" id="location" required="true" ref="locationInput" />
+                  <input type="text" class="form-control" id="locationmoto" required="true" ref="locationInput" />
                 </div>
-                <label class="col-sm-5 col-form-label" for="location">ロケーション</label>
+              </div>
+                <div class="form-group row mb-3">
+                <label class="col-sm-5 col-form-label" for="location">移動先ロケーション</label>
                 <div class="col-sm-6">
-                  <input type="text" class="form-control" id="location" required="true" ref="locationInput" />
+                  <input type="text" class="form-control" id="locationsaki" required="true" ref="locationInput" />
                 </div>
               </div>
             </div>
           </div>
-          <Footer msg1="戻る" msg2="確定" :msg3="'/menu'" :msg4="'/locationInfo'"></Footer>
+          <Footer msg1="戻る" msg2="確定" :msg3="'/menu'" :msg4="'/ikatsuLocationIdouKanryo'"></Footer>
         </div>
         
       </div>
