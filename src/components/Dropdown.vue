@@ -19,7 +19,7 @@ export default {
           <MyHeader msg="倉庫選択"/>
           <div class="card-body p-lg-5">
             <div class="text-center">
-              <div class="dropdown mt-4 ">
+              <!-- <div class="dropdown mt-4 ">
                 <button class="btn btn-primary dropdown-toggle " type="button" 
                   data-bs-toggle="dropdown" aria-expanded="false">
                   店舗選択
@@ -38,26 +38,23 @@ export default {
                     <a class="dropdown-item" href="#">4</a>
                   </li>
                 </ul>
+              </div> -->
+              <div class="p-2">
+                <select class="form-select btn btn-primary" aria-label="Default select example">
+                       <option selected>倉庫選択</option>
+                       <option value="1">倉庫1</option>
+                       <option value="2">倉庫2</option>
+                       <option value="3">倉庫3</option>
+               </select>
               </div>
-              <div class="dropdown mt-4">
-                <button class="btn btn-primary dropdown-toggle " type="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  倉庫選択
-                </button>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">2</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">3</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">4</a>
-                  </li>
-                </ul>
+              <div  class="p-2">
+                <select class="form-select btn btn-primary" aria-label="Default select example">
+                       <option selected>店舗選択</option>
+                       <option value="1">店舗1</option>
+                       <option value="2">店舗2</option>
+                       <option value="3">店舗3</option>
+               </select>
+              </div>
               </div>
              
             </div>
@@ -66,7 +63,6 @@ export default {
         </div>
       </div>
     </div>
-  </div>
   <!-- Example split danger button -->
 </template>
 
