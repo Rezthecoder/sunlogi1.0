@@ -21,6 +21,7 @@ const numberPlus=()=>{
 
 
 
+
 </script>
 
 
@@ -33,7 +34,7 @@ const numberPlus=()=>{
 <div class="input-group custom-form">
   <!--　コードを受け取り表示する。読み取り専用 -->
   <span class="input-group-text col-5">商品コード</span>
-  <input class="col-7 form-control custom-input" type="text" :value="code" autofocus v-on:keyup.enter="numberPlus" id="code" readonly>
+  <input class="col-7 form-control custom-input" type="text" :value="code" autofocus v-on:keyup.enter="numberPlus" id="code" readonly  ref="locationInput">
 </div>
 <div class="input-group custom-form">
   <span class="input-group-text col-5">商品名</span>

@@ -18,6 +18,11 @@ import Picking from "./components/Picking.vue";
 import PickingList from "./components/PickingList.vue";
 import Pickingkanryou from "./components/Pickingkanryou.vue";
 import Zaiko from "./components/Zaiko.vue";
+import MoveLocation from "./components/MoveLocation.vue";
+import MoveSingleLocationBefore from "./components/MoveSingleLocationBefore.vue";
+import MoveSingleLocationAfter from "./components/MoveSingleLocationAfter.vue";
+import MoveSingleLocationKanryou from "./components/MoveSingleLocationKanryo.vue";
+
 //login routes
 const routes =[
     {
@@ -118,7 +123,26 @@ const routes =[
         name:"zaiko",
         component : Zaiko
     },
-    
+    {
+        path: "/moveLocation",
+        name:"moveLocation",
+        component : MoveLocation
+    },
+    {
+        path: "/moveSingleLocationBefore",
+        name:"moveSingleLocationBefore",
+        component : MoveSingleLocationBefore
+    },
+    {
+        path: "/moveSingleLocationAfter",
+        name:"moveSingleLocationAfter",
+        component : MoveSingleLocationAfter
+    },
+    {
+        path: "/moveSingleLocationKanryou",
+        name:"moveSingleLocationKanryou",
+        component : MoveSingleLocationKanryou
+    },
 ]
 
 
