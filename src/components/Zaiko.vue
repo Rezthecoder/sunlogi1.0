@@ -32,9 +32,9 @@ export default {
 
            </div>
          </div>
-         
-       </div>
-       <Footer msg1="戻る" msg2="確定"  msg3="/menu"></Footer>
+         <Footer msg1="戻る" msg2="確定"  msg3="/menu"></Footer>
+        </div>
+      
      </div>
      
    </div>
