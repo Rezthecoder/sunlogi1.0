@@ -61,6 +61,12 @@ export default {
   .form{
     height:fit-content;
   }
+  .input-group-text{
+    font-size:11px;
+  }
+  .form-control{
+    font-size:11px;
+  }
 }
 
 

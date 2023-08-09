@@ -245,4 +245,15 @@ margin:0 auto;
     font-size: 16px;
   }
 } */
+
+@media screen and (max-width: 240px) {
+  
+
+  .input-group-text{
+    font-size:10px;
+  }
+  .form-control{
+    font-size:10px;
+  }
+}
 </style>

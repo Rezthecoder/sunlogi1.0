@@ -76,5 +76,14 @@ const shippingfrag=ref('');
 </template>
 
 <style scoped>
+@media screen and (max-width: 240px) {
+  
 
+  .input-group-text{
+    font-size:10px;
+  }
+  .form-control{
+    font-size:10px;
+  }
+}
 </style>
