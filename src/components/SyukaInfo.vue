@@ -46,7 +46,7 @@ export default {
                <div class="form-group row mb-3">
                 <label class="col-sm-5 col-form-label" for="location">個口指定</label>
                 <div class="col-sm-6" >
-                <input type="text" min="1" max="100" class="form-control"  pattern="^[0-9]+$"/>
+                <input type="number" min="1" max="100" class="form-control"  pattern="^(?:[1-9][0-9]?|100)$"/>
               </div>
               </div>
               </div>
