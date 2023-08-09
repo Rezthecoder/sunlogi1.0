@@ -18,11 +18,16 @@ import Picking from "./components/Picking.vue";
 import PickingList from "./components/PickingList.vue";
 import Pickingkanryou from "./components/Pickingkanryou.vue";
 import Zaiko from "./components/Zaiko.vue";
+<<<<<<< HEAD
 import MoveLocation from "./components/MoveLocation.vue";
 import MoveSingleLocationBefore from "./components/MoveSingleLocationBefore.vue";
 import MoveSingleLocationAfter from "./components/MoveSingleLocationAfter.vue";
 import MoveSingleLocationKanryou from "./components/MoveSingleLocationKanryo.vue";
 
+=======
+import IkatsuLocationIdou from "./components/IkatsuLocationIdou.vue";
+import IkatsuLocationIdouKanryo from "./components/IkatsuLocationIdouKanryo.vue";
+>>>>>>> a7bd6accb3d369c8a2f5a565156b4a96e95d9a59
 //login routes
 const routes =[
     {
@@ -124,6 +129,7 @@ const routes =[
         component : Zaiko
     },
     {
+<<<<<<< HEAD
         path: "/moveLocation",
         name:"moveLocation",
         component : MoveLocation
@@ -143,6 +149,19 @@ const routes =[
         name:"moveSingleLocationKanryou",
         component : MoveSingleLocationKanryou
     },
+=======
+        path: "/ikatsuLocationIdou",
+        name:"ikatsuLocationIdou",
+        component : IkatsuLocationIdou
+    },
+    
+    {
+        path: "/ikatsuLocationIdouKanryo",
+        name:"ikatsuLocationIdouKanryo",
+        component : IkatsuLocationIdouKanryo
+    },
+    
+>>>>>>> a7bd6accb3d369c8a2f5a565156b4a96e95d9a59
 ]
 
 

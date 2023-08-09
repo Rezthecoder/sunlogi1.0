@@ -44,6 +44,7 @@ export default {
                 <tbody>
                   <tr>
                    
+                    <td>名前0001</td>
                     <td>数量</td>
                     <td>20220812</td>
                     <td>可</td>
