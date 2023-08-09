@@ -36,54 +36,59 @@ export default {
               <table class="table table-bordered table-sm"> <!-- Added 'table-sm' class for smaller table size -->
                 <thead>
                   <tr>
+                    
                     <th scope="col">ロケーション</th>
-                    <th scope="col">数量</th>
+                    <th scope="col">ロット番号</th>
                     <th scope="col">販売期限</th>
                     <th scope="col">商品コード</th>
                     <th scope="col">管理バーコード</th>
                     <th scope="col">商品名</th>
                     <th scope="col">数量</th>
+                    <th scope="col">実績数</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>名前0001111111111</td>
+                    <td>A-5</td>
+                    <td>11-99</td>
+                    <td>20220812</td>
+                    <td>A-99999</td>
+                    <td>T-A-99999</td>
+                    <td>コカ・コーラ</td>
+                    <td>1</td>
                     <td><input style=width:25px; type="text"></td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                    <td>数量</td>
-                    <td>20220812</td>
                   </tr>
                   <tr>
-                    <td>名前0001</td>
+                    <td>A-2</td>
+                    <td>11-99</td>
+                    <td>20220812</td>
+                    <td>A-99999</td>
+                    <td>T-A-99999</td>
+                    <td>コカ・コーラ</td>
+                    <td>12</td>
                     <td><input style=width:25px; type="text"></td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                    <td>数量</td>
-                    <td>20220812</td>
 
                   </tr>
                   <tr>
-                    <td>名前0001</td>
+                    <td>A-23</td>
+                    <td>11-99</td>
+                    <td>20220812</td>
+                    <td>A-99999</td>
+                    <td>T-A-99999</td>
+                    <td>コカ・コーラ</td>
+                    <td>3</td>
                     <td><input style=width:25px; type="text"></td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                    <td>数量</td>
-                    <td>20220812</td>
 
                   </tr>
                   <tr>
-                    <td>名前0001</td>
+                    <td>A-34</td>
+                    <td>11-99</td>
+                    <td>20220812</td>
+                    <td>A-99999</td>
+                    <td>T-A-99999</td>
+                    <td>コカ・コーラ</td>
+                    <td>4</td>
                     <td><input style=width:25px; type="text"></td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                    <td>数量</td>
-                    <td>20220812</td>
-
                   </tr>
                 </tbody>
               </table>

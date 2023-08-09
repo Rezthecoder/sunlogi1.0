@@ -45,7 +45,7 @@ export default {
          </div>
          
        </div>
-       <Footer msg1="" msg2="確定"></Footer>
+       <Footer msg1="戻る" msg2="確定" msg3="/dropdown"></Footer>
      </div>
      
    </div>

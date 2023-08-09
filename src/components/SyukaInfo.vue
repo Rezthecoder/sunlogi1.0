@@ -41,7 +41,7 @@ export default {
       <div class="col-sm-12 col-md-6 offset-md-3">
        
         <div class="card">
-          <MyHeader msg="出荷検品リスト"/>
+          <MyHeader msg="出荷検品"/>
           <div class="card-body p-lg-5">
             <div class="text-center">
               <div class="form-group row mb-3">
