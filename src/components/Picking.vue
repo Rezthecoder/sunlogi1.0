@@ -21,7 +21,7 @@ export default {
           <MyHeader msg="ピッキング"/>
           <div class="card-body p-lg-5">
             <div class="text-center">
-              <div class="p-2">
+              <div class="p-1">
                 <select class="form-select btn btn-primary" aria-label="Default select example">
                        <option selected>倉庫選択</option>
                        <option value="1">倉庫1</option>
@@ -29,9 +29,9 @@ export default {
                        <option value="3">倉庫3</option>
                </select>
               </div>
-              <div  class="p-2">
+              <div  class="p-1">
                 <select class="form-select btn btn-primary" aria-label="Default select example">
-                       <option selected>出荷グループ</option>
+                       <option selected>出荷グループ選択</option>
                        <option value="1">楽天</option>
                        <option value="2">Amazon</option>
                        <option value="3">Yahoo</option>

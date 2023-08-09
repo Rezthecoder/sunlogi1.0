@@ -25,51 +25,31 @@ export default {
           <div class="card-body p-lg-5">
             <div class="text-center">
               <div class="form-group row mb-3">
-                <label class="col-sm-5 col-form-label" for="location">商品コード</label>
+                <label class="col-sm-5 col-form-label" for="location">出荷コード</label>
                 <div class="col-sm-6" >
-                  <input type="text" autofocus class="form-control" id="location" />
-                </div>
+                <input type="text" autofocus class="form-control" id="location" />
               </div>
-            </div>
-            <div class="table-responsive">
-              <table class="table table-bordered table-sm"> <!-- Added 'table-sm' class for smaller table size -->
-                <thead>
-                  <tr>
-                    <th scope="col">商品画像</th>
-                    <th scope="col">商品名</th>
-                    <th scope="col">予定数</th>
-                    <th scope="col">実績数</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                   
-                    <td>名前0001</td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                  </tr>
-                  <tr>
-                    <td>名前0001</td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                  </tr>
-                  <tr>
-                    <td>名前0001</td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                  </tr>
-                  <tr>
-                    <td>名前0001</td>
-                    <td>数量</td>
-                    <td>20220812</td>
-                    <td>可</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              </div>
+              <div class="form-group row mb-3">
+                <label class="col-sm-5 col-form-label" for="location">サイズ指定</label>
+                <div class="col-sm-6 p-1 mr-3">
+                  <select class="form-select btn btn-primary" aria-label="Default select example">
+                       <option selected>サイズ指定</option>
+                       <option value="1">030SS</option>
+                       <option value="2">050宅コン</option>
+                       <option value="2">050宅コン</option>
+               </select>
+              </div>
+
+
+               </div>
+               <div class="form-group row mb-3">
+                <label class="col-sm-5 col-form-label" for="location">個口指定</label>
+                <div class="col-sm-6" >
+                <input type="text" min="1" max="100" class="form-control"  pattern="^[0-9]+$"/>
+              </div>
+              </div>
+              </div>
           </div>
           <Footer msg1="戻る" msg2="完了" :msg3="'/syuka'" :msg4="'/syukaKanryo'" ></Footer>
 
