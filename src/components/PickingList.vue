@@ -14,6 +14,7 @@ export default {
 </script>
 
 <template>
+  
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3">
@@ -23,48 +24,66 @@ export default {
           <div class="card-body p-lg-5">
             <div class="text-center">
               <!-- Removed the inner row and adjusted column classes -->
-              <div class="form-group row mb-3">
+              <!-- <div class="form-group row mb-3">
               
-                <label class="col-sm-5 col-form-label" for="location">商品コード</label>
+                <label class="col-sm-5 col-form-label" for="location">ロケーション</label>
                 <div class="col-sm-6">
                   <input type="text" class="form-control" id="location" autofocus />
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="table-responsive">
               <table class="table table-bordered table-sm"> <!-- Added 'table-sm' class for smaller table size -->
                 <thead>
                   <tr>
                     <th scope="col">ロケーション</th>
+                    <th scope="col">数量</th>
+                    <th scope="col">販売期限</th>
+                    <th scope="col">商品コード</th>
+                    <th scope="col">管理バーコード</th>
                     <th scope="col">商品名</th>
-                    <th scope="col">予定数</th>
-                    <th scope="col">実績数</th>
+                    <th scope="col">数量</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>名前0001111111111</td>
+                    <td><input style=width:25px; type="text"></td>
                     <td>数量</td>
                     <td>20220812</td>
                     <td>可</td>
+                    <td>数量</td>
+                    <td>20220812</td>
                   </tr>
                   <tr>
                     <td>名前0001</td>
+                    <td><input style=width:25px; type="text"></td>
                     <td>数量</td>
                     <td>20220812</td>
                     <td>可</td>
+                    <td>数量</td>
+                    <td>20220812</td>
+
                   </tr>
                   <tr>
                     <td>名前0001</td>
+                    <td><input style=width:25px; type="text"></td>
                     <td>数量</td>
                     <td>20220812</td>
                     <td>可</td>
+                    <td>数量</td>
+                    <td>20220812</td>
+
                   </tr>
                   <tr>
                     <td>名前0001</td>
+                    <td><input style=width:25px; type="text"></td>
                     <td>数量</td>
                     <td>20220812</td>
                     <td>可</td>
+                    <td>数量</td>
+                    <td>20220812</td>
+
                   </tr>
                 </tbody>
               </table>

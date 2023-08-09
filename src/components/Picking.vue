@@ -21,30 +21,21 @@ export default {
           <MyHeader msg="ピッキング"/>
           <div class="card-body p-lg-5">
             <div class="text-center">
-              <div class="dropdown mt-4 ">
-                <button class="btn btn-primary " type="button"  aria-expanded="false">
-                  倉庫名
-                </button>
+              <div class="p-2">
+                <select class="form-select btn btn-primary" aria-label="Default select example">
+                       <option selected>倉庫選択</option>
+                       <option value="1">倉庫1</option>
+                       <option value="2">倉庫2</option>
+                       <option value="3">倉庫3</option>
+               </select>
               </div>
-              <div class="dropdown mt-4">
-                <button class="btn btn-primary" type="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  WorkId
-                </button>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">2</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">3</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">4</a>
-                  </li>
-                </ul>
+              <div  class="p-2">
+                <select class="form-select btn btn-primary" aria-label="Default select example">
+                       <option selected>出荷グループ</option>
+                       <option value="1">楽天</option>
+                       <option value="2">Amazon</option>
+                       <option value="3">Yahoo</option>
+               </select>
               </div>
              
             </div>
