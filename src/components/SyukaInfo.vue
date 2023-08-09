@@ -10,6 +10,26 @@ export default {
     Location,
     Syuka
   },
+  mounted() {
+    const inputElement = document.getElementById("numberInput");
+    
+    inputElement.addEventListener("input", function() {
+      // Remove leading zeros
+      this.value = this.value.replace(/^0+/, "");
+
+      // Ensure the value is within the range 1 to 100
+      if (this.value < 1) {
+        this.value = 1;
+      } else if (this.value > 100) {
+        this.value = 100;
+      }
+
+      // Limit the input to a maximum of three digits
+      if (this.value.length > 3) {
+        this.value = this.value.slice(0, 3);
+      }
+    });
+  },
 
 };
 // console.log(Footer.msg1);
@@ -46,7 +66,14 @@ export default {
                <div class="form-group row mb-3">
                 <label class="col-sm-5 col-form-label" for="location">個口指定</label>
                 <div class="col-sm-6" >
-                <input type="text" min="1" max="100" class="form-control"  pattern="^[0-9]+$"/>
+                <!-- <input type="text" min="1" max="100" class="form-control"  pattern="^[0-9]+$"/>
+                 -->
+                 <input type="number" class="form-control" min="1" max="100" id="numberInput">
+
+
+
+
+
               </div>
               </div>
               </div>
