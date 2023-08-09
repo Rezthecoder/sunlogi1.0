@@ -32,10 +32,6 @@ this.$refs.locationInput.focus();
                 <div class="col-sm-6">
                   <input type="text" class="form-control" id="location" required="true" ref="locationInput" />
                 </div>
-                <label class="col-sm-5 col-form-label" for="location">ロケーション</label>
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="location" required="true" ref="locationInput" />
-                </div>
               </div>
             </div>
           </div>

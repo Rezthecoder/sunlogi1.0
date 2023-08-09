@@ -27,7 +27,7 @@ export default {
                <router-link to="/moveSingleLocationBefore" style="text-decoration:none;">ロケーション移動</router-link>
              </div>
              <div class="form-group row mb-3 border border-primary p-3">
-              <router-link to="/location" style="text-decoration:none;">一括ロケーション移動</router-link>
+              <router-link to="/ikatsuLocationIdou" style="text-decoration:none;">一括ロケーション移動</router-link>
              </div>
 
            </div>
