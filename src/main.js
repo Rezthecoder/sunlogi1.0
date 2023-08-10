@@ -22,6 +22,5 @@ import  "bootstrap/dist/js/bootstrap.js"
 import "./style.css"
 
 import router from './routing';
-
 const app=createApp(App).use(router);
 app.mount('#app')
