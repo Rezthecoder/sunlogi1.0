@@ -19,9 +19,6 @@ import IkatsuLocationIdou from "./components/IkatsuLocationIdou.vue";
 
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
-
-
 import router from './routing';
-
 const app=createApp(App).use(router);
 app.mount('#app')

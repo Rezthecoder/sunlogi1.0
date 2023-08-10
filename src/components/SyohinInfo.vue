@@ -56,7 +56,7 @@ export default {
             </div>
          
           </div>
-          <Footer msg1="戻る" msg2="" :msg3="'/syohin'" :msg4="'/syohinkanryo'"></Footer>
+          <Footer msg1="戻る" msg2="メニューへ" :msg3="'/syohin'" :msg4="'/menu'"></Footer>
         </div>
       </div>
     </div>
