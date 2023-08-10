@@ -61,7 +61,7 @@ export default {
               </table>
             </div>
           </div>
-          <Footer msg1="戻る" msg2="メニューへ" :msg3="'/location'" :msg4="'/menu'" ></Footer>
+          <Footer msg1="戻る" msg2="メニュー" :msg3="'/location'" :msg4="'/menu'" ></Footer>
 
         </div>
       </div>

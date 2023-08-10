@@ -7,24 +7,18 @@ name:String,
 </script>
 
 <template>
-  <h1>Sunlogi</h1>
+  <!-- <h1>Sunlogi</h1>
 
   <router-link to="/login">Login</router-link><br>
   <router-link to="/dropdown">Dropdown</router-link><br>
   <router-link to="/location">Location</router-link><br>
-  <!-- <router-link to="/locationInfo">LocationInfo</router-link><br> -->
   <router-link to="/syohin">Syohin</router-link><br>
-  <!-- <router-link to="/syohinInfo">SyohinInfo</router-link><br> -->
   <router-link to="/menu">Menu</router-link><br>
   <router-link to="/nyuuko">Nyuuko</router-link><br>
-  <!-- <router-link to="/message">Message</router-link><br> -->
   <router-link to="/syuka">Syuka</router-link><br>
-  <!-- <router-link to="/syukaInfo">SyukaInfo</router-link><br> 
-  <router-link to="/syukaKanryo">SyukaKanryo</router-link><br> -->
   <router-link to="/picking">Picking</router-link><br>
   <router-link to="/zaiko">Zaiko</router-link><br>
-  <!-- <router-link to="/moveLocation">moveLocation</router-link><br> -->
-  <!-- <router-link to="/ikatsuLocationIdou">IkatsuLocationIdou</router-link><br> -->
+  <router-link to="/ikatsuLocationIdou">IkatsuLocationIdou</router-link><br> -->
 
   <router-view></router-view>
   
