@@ -12,8 +12,9 @@ export default {
   },
   mounted() {
     const inputElement = document.getElementById("numberInput");
-    
-    inputElement.addEventListener("input", function() {
+    const errorMessage = document.getElementById("errorMessage");
+
+    inputElement.addEventListener("input", function () {
       // Remove leading zeros
       this.value = this.value.replace(/^0+/, "");
 
@@ -22,6 +23,9 @@ export default {
         this.value = 0;
       } else if (this.value > 100) {
         this.value = 100;
+        errorMessage.textContent = "100以下の数値を入力してください。";
+      } else {
+        errorMessage.textContent = "";
       }
 
       // Limit the input to a maximum of three digits
@@ -80,16 +84,21 @@ export default {
                </div>
                <div class="form-group row mb-3">
                 <label class="col-sm-5 col-form-label" for="location">個口指定</label>
-                <div class="col-sm-6" >
-                <!-- <input type="text" min="1" max="100" class="form-control"  pattern="^[0-9]+$"/>
-                 -->
-                 <input type="number" class="form-control" min="1" max="100" id="numberInput">
+    <div class="col-sm-6">
+      <input
+        type="number"
+        class="form-control"
+        min="1"
+        max="100"
+        id="numberInput"
+      />
+      <p id="errorMessage" class="text-danger"></p>
+    </div>
 
 
 
 
-
-              </div>
+             
               </div>
               </div>
           </div>
