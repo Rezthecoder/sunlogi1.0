@@ -19,7 +19,7 @@ import IkatsuLocationIdou from "./components/IkatsuLocationIdou.vue";
 
 import  "bootstrap/dist/css/bootstrap.css"
 import  "bootstrap/dist/js/bootstrap.js"
-
+import "./style.css"
 
 import router from './routing';
 

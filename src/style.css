@@ -105,3 +105,10 @@ button:focus-visible {
   position: fixed;
 
 } */
+
+
+
+.container{
+  padding: 0 !important;
+  margin: 0 !important;
+}
