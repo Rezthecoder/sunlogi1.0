@@ -53,11 +53,26 @@ export default {
               <div class="form-group row mb-3">
                 <label class="col-sm-5 col-form-label" for="location">サイズ指定</label>
                 <div class="col-sm-6 p-1 mr-3">
-                  <select class="form-select btn btn-primary" aria-label="Default select example">
-                       <option selected>サイズ指定</option>
+                  <select class="form-select btn btn-primary" aria-label="Default select example" size="2">
+                       <option selected>選択してください</option>
                        <option value="1">030SS</option>
                        <option value="2">050宅コン</option>
-                       <option value="2">050宅コン</option>
+                       <option value="3">060M</option>
+                       <option value="4">080L</option>
+                       <option value="5">100LM</option>
+                       <option value="6">120LL</option>
+                       <option value="7">1403L</option>
+                       <option value="8">150</option>
+                       <option value="9">160</option>
+                       <option value="10">170</option>
+                       <option value="11">180</option>
+                       <option value="12">190</option>
+                       <option value="13">200</option>
+                       <option value="14">210</option>
+                       <option value="14">220</option>
+                       <option value="14">230</option>
+                       <option value="14">240</option>
+                       <option value="14">250</option>
                </select>
               </div>
 
