@@ -28,7 +28,7 @@ import IkatsuLocationIdouKanryo from "./components/IkatsuLocationIdouKanryo.vue"
 //login routes
 const routes =[
     {
-        path: "/login",
+        path: "/",
         name:"login",
         component : Login
     },

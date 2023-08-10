@@ -13,7 +13,7 @@ defineProps({
       <span id="page-title" style="color:rgb(3, 10, 73)">{{ msg }}</span>
     </div>
     <div class="header-right">
-      <router-link to="/login"><img src="../assets/test.png" alt="ログアウト"></router-link>
+      <router-link to="/"><img src="../assets/test.png" alt="ログアウト"></router-link>
     </div>
   </header>
 </template>
