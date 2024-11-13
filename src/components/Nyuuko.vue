@@ -1,13 +1,13 @@
 <script>
 import Footer from "./Footer.vue";
 import MyHeader from "./MyHeader.vue";
-// import BarcodeForm from "./BarcodeForm.vue";
+import BarcodeForm from "./BarcodeForm.vue";
 import Form from "./Form.vue";
 export default {
   components: {
     Footer, // Register the Footer component
     MyHeader,
-    // BarcodeForm,
+    BarcodeForm,
     Form,
   },
 };
