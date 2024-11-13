@@ -1,36 +1,18 @@
 <script setup>
-import Footer from './components/Footer.vue';
+import Footer from "./components/Footer.vue";
 defineProps({
-name:String,
-})
-
+  name: String,
+});
 </script>
 
 <template>
-  <!-- <h1>Sunlogi</h1>
-
-  <router-link to="/login">Login</router-link><br>
-  <router-link to="/dropdown">Dropdown</router-link><br>
-  <router-link to="/location">Location</router-link><br>
-  <router-link to="/syohin">Syohin</router-link><br>
-  <router-link to="/menu">Menu</router-link><br>
-  <router-link to="/nyuuko">Nyuuko</router-link><br>
-  <router-link to="/syuka">Syuka</router-link><br>
-  <router-link to="/picking">Picking</router-link><br>
-  <router-link to="/zaiko">Zaiko</router-link><br>
-  <router-link to="/ikatsuLocationIdou">IkatsuLocationIdou</router-link><br> -->
-
   <router-view></router-view>
-  
 </template>
 
-
 <style scoped>
-
-
-.active{
-  color:red;
-  font-weight:900;
+.active {
+  color: red;
+  font-weight: 900;
 }
 .logo {
   height: 6em;

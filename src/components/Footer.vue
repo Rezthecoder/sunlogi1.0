@@ -1,25 +1,22 @@
-
 <template>
-  
   <footer class="footer">
     <div class="buttoncontainer">
-      
       <!-- Add your footer content here -->
       <div class="modoru">
-        <a :href="msg3" style="color: white; text-decoration: none;">
-    {{ msg1 }}
-  </a></div>
+        <a :href="msg3" style="color: white; text-decoration: none">
+          {{ msg1 }}
+        </a>
+      </div>
       <div class="bluebox"></div>
       <div class="greenbox"></div>
       <div class="kettei">
         <!-- <a href="" target="_blank" style="color: white">{{ msg2 }}</a></div> -->
-        <a :href="msg4" style="color: white; text-decoration: none;">
-    {{ msg2 }}
-  </a></div>
-      
+        <a :href="msg4" style="color: white; text-decoration: none">
+          {{ msg2 }}
+        </a>
       </div>
-      <p id="date">{{ currentDateTime }}</p>
- 
+    </div>
+    <p id="date">{{ currentDateTime }}</p>
   </footer>
 </template>
 /* components/Footer.vue */
@@ -36,28 +33,20 @@
   height: 50px;
 }
 
-/* Responsive CSS for 240x320 resolution */
-/* @media (min-width: 240px) and (max-width: 320px) {
-  .buttoncontainer {
-    max-width: 100vh;
-
-  }
-} */
-
 .modoru {
-    background-color: red;
-    width: 200px;
-    color: white !important;
-    font-size: 27px;
-    text-align: center;
-    text-decoration:none;
+  background-color: red;
+  width: 200px;
+  color: white !important;
+  font-size: 27px;
+  text-align: center;
+  text-decoration: none;
 }
 .kettei {
-    background-color: orange;
-    width: 200px;
-    color: white;
-    font-size: 27px;
-    text-align: center;
+  background-color: orange;
+  width: 200px;
+  color: white;
+  font-size: 27px;
+  text-align: center;
 }
 
 .container p {
@@ -76,16 +65,14 @@
 }
 </style>
 
-
 <script setup>
-
 const dynamicRoute = "/location";
 
-    // Define props using defineProps function
-    import { defineProps } from 'vue';
-    import { ref, onMounted, onUnmounted } from 'vue';
+// Define props using defineProps function
+import { defineProps } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
-const currentDateTime = ref('');
+const currentDateTime = ref("");
 
 const updateCurrentDateTime = () => {
   const date = new Date();
@@ -110,10 +97,9 @@ onUnmounted(() => {
 });
 
 defineProps({
-  msg1:String,
-  msg2:String,
-  msg3:String,
-  msg4:String,
-})
-
+  msg1: String,
+  msg2: String,
+  msg3: String,
+  msg4: String,
+});
 </script>
