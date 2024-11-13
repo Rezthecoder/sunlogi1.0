@@ -73,13 +73,3 @@ const numberPlus = () => {
     <input class="col-7 form-control custom-input" type="text" value="なし" />
   </div>
 </template>
-
-@media screen and (max-width: 240px) {
-  .input-group-text {
-    font-size: 10px;
-  }
-  .form-control {
-    font-size: 10px;
-  }
-}
-</style>
